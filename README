@@ -1,0 +1,25 @@
+# Income-Expenses Tracker
+
+โปรเจกต์ **Income-Expenses** คือเครื่องมือบันทึกรายรับรายจ่ายเล็ก ๆ ที่พัฒนาโดยใช้ **Python**  
+เน้นเรียบง่าย ใช้งานได้จริง และฝึกการใช้ Git/GitHub 
+
+---
+
+## Features
+- บันทึกรายรับ/รายจ่ายลงไฟล์ `.csv`
+- คำนวณยอดรวมอัตโนมัติ
+- รองรับการกรองข้อมูลตามวันที่/ประเภท
+- พิมพ์รายงานสรุปใน terminal ด้วยสีสวย ๆ (ใช้ [rich](https://github.com/Textualize/rich))
+
+---
+
+## Installation & Setup
+.venv\Scripts\activate # Windows  
+source .venv/bin/activate # macOS/Linux
+pip install -r requirements.txt # เอาไว้ติดตั้งแพ็กเกจที่กำหนดใน requirements.txt
+อย่าลืมกำหนด venv ก่อนติดตั้งแพ็กเกจ
+
+### 1. Clone Repository
+```bash
+git clone git@github.com:KittipoomNaknut/Income-Expenses.git
+cd Income-Expenses
